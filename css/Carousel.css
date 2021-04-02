@@ -1,0 +1,70 @@
+*, body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerP{ 
+    min-height: 100vh;
+     background: linear-gradient(to right, hsla(61, 81%, 51%, 0.459), hsla(9, 64%, 38%, 0.664)), url(../img/fondos/ladrillos\ negros.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(61, 81%, 51%, 0.459), hsla(9, 64%, 38%, 0.664)), url(../img/fondos/ladrillos\ negros.jpg);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.tituloP {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: rgb(250, 250, 250);
+    display: inline;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.linea-division {
+    width: 80%;
+    height: 3px;
+    background-color: #36221c;
+}
+.carousel{
+    min-height: 350px;
+}
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 400px;
+    height: 320px;
+}
+.carousel-item .linea-division a.btn{
+    margin-bottom: 54px;
+}
+.carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -11;
+    border-radius: 15px;
+}
+
+.carousel .indicators .indicator-item{
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background-color: #35221c;
+
+}
