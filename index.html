@@ -27,16 +27,17 @@
     <title>Portafolio Web</title>
 </head>
 
-<body>
+<body >
     <header>
         <section class="textos-header" id="sec1">
             <img src="img/perfil.jpg" alt="">
             <h1>Kevin Ranier</h1>
             <h2>Urrea Hernández</h2>
+            <h3 style="margin: 0px;" >Hola Soy</h3>
             <h3 style="margin-top: 0px;"><span class="typed"></span></h3>
             <div class="txtHeader" id="cadenas-txt">
-                <p>Hola Soy <br><i class="afines">Diseñador Web</i></p>
-                <p>Hola Soy <br><i class="afines">Técnico en Programación <br> de Software</i></p>
+                <p><i class="afines">Diseñador Web</i></p>
+                <p><i class="afines">Téc. en Programación <br> de Software</i></p>
             </div>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
@@ -56,25 +57,26 @@
                 <h2>Sobre Mi</h2>
             </div>
             <div class="contenedor-sobre-mi">
-                <img src="img/ilustraciones/Personal data _Monochromatic.svg" alt="" class="imagen-about-me1">
-                <div class="contenido-textos">
-                    <p class="parrafo1"> Soy un joven que le gusta mucho todo acerca de la tecnología,
+                <div class="items"><img src="img/ilustraciones/Personal data _Monochromatic.svg" class="imagen-about-me1"></div>
+                <div class="parrafo1 items">
+                    <p> Soy un joven que le gusta mucho todo acerca de la tecnología,
                         la programación y el diseño de sitios webs de programas, también me gusta
                         siempre estar al pendiente de lo nuevo en las tecnologías además de las nuevas
                         noticias también estoy constantemente aprendiendo de todo un poco en el tema de
                         la programación como lenguajes y métodos que me ayude a tener mejores conocimientos
                         y mayor experiencia en mi área de trabajo.</p>
-                    <div><img src="img/ilustraciones/Personal data _Isometric.svg" alt="" class="imagen-about-me2">
-                    </div>
-                    <p class="parrafo2"> En cuanto a mi nivel de inglés, no es el mejor, pero me ha ayudado mucho desde
+                </div>
+                <div class="parrafo2 items">
+                    <p> En cuanto a mi nivel de inglés, no es el mejor, pero me ha ayudado mucho desde
                         que
                         empecé
                         en este mundo de la programación, aunque todavía no soy muy bueno a la hora de hablarlo me
                         destaco bien al traducir textos y escribir también en este idioma lo cual me ayuda bastante
-                        a entender más los distintos lenguajes de programación. Una de las maneras que utilizo para
+                        a entender más los distintos lenguajes de programación. <br><br> Una de las maneras que utilizo para
                         poder obtener más experiencia individualmente es creando proyectos con diferentes lenguajes
-                        que voy aprendiendo queme ayuda a mejorar en mi ámbito laboral</p>
+                        que voy aprendiendo queme ayuda a mejorar en mi ámbito laboral.</p>
                 </div>
+                <div class="items"><img src="img/ilustraciones/Personal data _Isometric.svg"  class="imagen-about-me2"></div>
             </div>
         </div>
     </section>
@@ -87,11 +89,19 @@
                 <h1 class="center-align tituloP">Proyectos</h1>
                 <div class="carousel center-align">
                     <div class="carousel-item">
+                        <h2 class="subtitulo">Tienda Online</h2>
+                        <div class="linea-division"></div>
+
+                        <img src="img/proyectosImg/pagina_web.jpeg" alt="">
+                        <a type="button" class="btn" href="https://github.com/kevin-hu22/PortafolioWeb.git"
+                            target="_blank">Descargar</a>
+                    </div>
+                    <div class="carousel-item">
                         <h2 class="subtitulo">C.R.U.D</h2>
                         <div class="linea-division"></div>
                         <img src="img/proyectosImg/crud1.jpeg" alt="">
                         <a type="button" class="btn" href="https://github.com/kevin-hu22/Proyecto-C.R.U.D.git"
-                            target="_blank">Descargar</a>
+                        target="_blank">Descargar</a>
                     </div>
                     <div class="carousel-item">
                         <h2 class="subtitulo">Videojuego</h2>
@@ -106,22 +116,14 @@
                         <div class="linea-division"></div>
 
                         <img src="img/proyectosImg/LOGIN.jpeg" alt="">
-                        <a type="button" class="btn" href="#" target="_blank">Descargar</a>
+                        <a type="button" class="btn" href="#" >Descargar</a>
                     </div>
                     <div class="carousel-item">
                         <h2 class="subtitulo">Proyectos con Phyton</h2>
                         <div class="linea-division"></div>
 
                         <img src="img/proyectosImg/python2.jpeg" alt="">
-                        <a type="button" class="btn" href="#" target="_blank">Descargar</a>
-                    </div>
-                    <div class="carousel-item">
-                        <h2 class="subtitulo">Tienda Online</h2>
-                        <div class="linea-division"></div>
-
-                        <img src="img/proyectosImg/pagina_web.jpeg" alt="">
-                        <a type="button" class="btn" href="https://github.com/kevin-hu22/WordCam.git"
-                            target="_blank">Descargar</a>
+                        <a type="button" class="btn" href="#" >Descargar</a>
                     </div>
                 </div>
             </div>
@@ -131,13 +133,13 @@
     <script src="js/carousel.js"></script>
 
     <!------------------------------  Section 4  ---------------------------------------------->
-    <main class="parte4">
+    <main>
         <div class="tituloS">
             <h1>Estudios</h1>
         </div>
         <div class="section4">
             <div class="containerC">
-                <div class="card">
+                <div class="card h">
                     <div class="imgBox" data-text="Html">
                         <img src="img/icons/html-5.png" alt="">
                     </div>
@@ -180,7 +182,7 @@
                         <div  id="shadow2" class="shadow"></div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card e">
                     <div class="imgBox" data-text="English">
                         <img src="img/icons/studying.png" alt="">
                     </div>
